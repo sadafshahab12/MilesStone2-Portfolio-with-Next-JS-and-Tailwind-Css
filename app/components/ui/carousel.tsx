@@ -18,6 +18,7 @@ type CarouselProps = {
   opts?: CarouselOptions;
   plugins?: CarouselPlugin;
   orientation?: "horizontal" | "vertical";
+  /* eslint-disable-next-line @typescript-eslint/no-unused-vars */
   setApi?: (api: CarouselApi) => void;
 };
 

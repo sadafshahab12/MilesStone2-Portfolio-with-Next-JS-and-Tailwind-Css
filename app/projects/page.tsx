@@ -1,12 +1,16 @@
-import React from 'react'
-import Project from '../components/Project'
+import React from "react";
+import Project from "../components/Project";
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Project | Portfolio",
+};
 const Projects = () => {
   return (
     <div>
-      <Project/>
+      <Project />
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
