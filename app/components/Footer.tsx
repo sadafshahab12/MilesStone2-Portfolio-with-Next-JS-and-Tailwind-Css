@@ -50,7 +50,7 @@ const Footer = () => {
           <div className="bg-[#413D3D] space-y-5 md:space-y-6 md:py-0 py-5 flex flex-col justify-center items-center">
             <h1 className="text-[1.3rem] font-medium text-white">Menu</h1>
 
-            <div className="text-white  text-[0.8rem] grid md:grid-cols-2 grid-cols-1 gap-3   md:gap-6">
+            <div className="text-white  text-[0.8rem] grid md:grid-cols-2 grid-cols-1 gap-3 text-center  md:gap-6">
               <Link href="/" className="block hover:underline">
                 Home
               </Link>

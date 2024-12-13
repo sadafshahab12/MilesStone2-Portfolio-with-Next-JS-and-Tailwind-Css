@@ -40,7 +40,7 @@ const About = () => {
                     className=" xss:rounded-3xl sm:rounded-full w-full h-full object-cover"
                   />
                 </div>
-                <div className="w-[18rem] sm:w-[36rem]">
+                <div className="w-full sm:w-[36rem]">
                 <p className="text-[0.8rem] md:text-[1rem] text-wrap font-normal text-gray  tracking-wider w-full text-center leading-6  md:leading-8 ">
                 As a front-end developer, I have a strong interest in making web apps that are responsive and easy to use. I love transforming ideas into engaging experiences, and I have expertise with HTML, CSS, JavaScript, BootStrap, React.js, Next.js, and Tailwind CSS. Additionally, I am quite proficient in Python and SQL.
  
@@ -70,7 +70,7 @@ const About = () => {
                     </button>
                   </div>
                 </div>
-                <div className="icon flex gap-8 justify-center items-center pt-5">
+                <div className="icon flex md:gap-8 gap-4 justify-center items-center pt-5">
                   <ABoutIcon />
                 </div>
               </div>

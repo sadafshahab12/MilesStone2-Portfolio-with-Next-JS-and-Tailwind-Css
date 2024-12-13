@@ -7,24 +7,24 @@ const Hero = () => {
   return (
     <>
       <section>
-        <div className=" pb-3 md:px-10 md:pb-10 pt-8 md:pt-18 xss:text-center sm:text-left">
-          <div className="flex justify-around items-center lg:flex-row flex-col">
+        <div className=" pb-3 md:px-10 md:pb-10 pt-6 md:pt-18 text-center md:text-left">
+          <div className="flex justify-around items-center md:flex-row flex-col">
             {/* left  */}
             <div>
               <p className="font-thin text-black sm:text-[1.25rem] text-[1rem]">
                 Explore My
               </p>
-              <p className="text-red font-black sm:text-[1.5rem] text-[1rem] tracking-wider pb-6">
+              <p className="text-red font-black sm:text-[1.5rem] text-[1rem] tracking-wider md:pb-6 pb-3">
                 Coding <span className="text-black">Universe</span>
               </p>
               <p className="font-thin text-black text-[1.5rem]">Hi! I am</p>
-              <p className="text-black font-black tracking-tight xss:text-[2.5rem] sm:text-[3.5rem] md:text-nowrap  md:text-[4.5rem] leading-[5rem]">
+              <p className="text-black font-black tracking-tight xss:text-[2.5rem] sm:text-[3.5rem] md:text-nowrap  md:text-[3.5rem] lg:text-[4.5rem] leading-[5rem]">
                 Sa<span className="text-red">daf</span>{" "}
                 <span className="text-black">
                   Shah<span className="text-red">ab</span>
                 </span>
               </p>
-              <p className="text-black text-[1rem]  md:text-[1.7rem] font-semibold tracking-[0.3rem] py-5">
+              <p className="text-black text-[1rem]  md:text-[1.7rem] font-semibold tracking-[0.3rem] md:py-5 py-2">
                 Front-End{" "}
                 <span className="text-red font-extralight">Developer</span>
               </p>
@@ -48,9 +48,9 @@ const Hero = () => {
                   </div>
                 </div>
               </div>
-              <p className="text-gray pb-8 w-[20rem] md:w-[25rem] text-[0.8rem] sm:text-[1rem]">
+              <p className="text-gray md:pb-8 pb-4 w-auto md:w-[25rem] text-[0.9rem] sm:text-[1rem] md:m-0 m-3">
                 As Freelancer, I build beautiful and functional websites that
-                enhance user experience.{" "}
+                enhance user experience.
               </p>
               <div className="space-x-4 pb-5">
                 <button
@@ -92,7 +92,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <p className="bg-sky text-black rounded-lg py-2 px-3 text-center w-[18rem] sm:w-[40rem] mx-auto text-[0.8rem] sm:text-[0.9rem] tracking-wider my-5 lg:text-nowrap text-wrap">
+          <p className="bg-sky text-black rounded-lg py-2 px-3 text-center w-auto sm:w-[40rem] sm:mx-auto  text-[0.8rem] sm:text-[0.9rem] m-2 tracking-wider my-5 lg:text-nowrap text-wrap">
             Ready to transform your vision into a{" "}
             <span className="text-white text-[0.9rem] smtext-[1rem] tracking-wider">
               Digital Masterpiece?

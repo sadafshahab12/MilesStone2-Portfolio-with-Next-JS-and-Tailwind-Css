@@ -1,8 +1,6 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
 import Project2Card from "../components/Project2Card";
-import Project3Card from "../components/Project3Card";
-import Project4Card from "../components/Project4Card";
 import Link from "next/link";
 
 const Project = () => {
@@ -19,29 +17,29 @@ const Project = () => {
             <div>
               {/* Next JS  */}
               <ProjectCard
-                src="/images/work/nextjs (2).PNG"
-                h1="First Next JS Website"
-                p=" Enjoy a seamless browsing experience on our responsive cake website."
-                projectLink="https://next-js-assignment-3-five.vercel.app/"
+                src="/images/work/latest1.jpg"
+                h1="Next JS Ecommerce Website"
+                p="Ecommerce website with next js and tailwind css with responsiveness."
+                projectLink="https://uiux-hackathon-2-nextjs-design-jam-2024.vercel.app/"
+              />
+            </div>
+
+            <div>
+              {/* Next JS  */}
+              <ProjectCard
+                src="/images/work/latest3.jpg"
+                h1="Fourth Portfolio"
+                p="I build my fourth Portfolio with Next Js and Tailwind Css."
+                projectLink="https://portfolio-with-next-js-and-custom-css-nu.vercel.app/"
               />
             </div>
             <div>
               {/* Next JS  */}
               <ProjectCard
-                src="/images/work/portfolio next js.png"
-                h1="First Next JS Website"
-                p=" Enjoy a seamless browsing experience on our responsive cake website."
-                projectLink="https://next-js-assignment-3-five.vercel.app/"
-              />
-            </div>
-     
-            <div>
-              {/* Next JS  */}
-              <ProjectCard
-                src="/images/work/nextjs website.png"
-                h1="Rise Up Website"
-                p="The motivational website was created using Tailwind CSS and Next JS, with Figma for design and code writing."
-                projectLink="https://rise-up-website-next-js-assignment-7.vercel.app/"
+                src="/images/work/latest4.jpg"
+                h1="Login And SignOut"
+                p="I build Login & SignOut with Next Js and Tailwind Css , Auth.js and GitHub Authentication."
+                projectLink="https://code-connect-login-sign-out-page-with-next-js.vercel.app/"
               />
             </div>
             <div>
@@ -56,10 +54,66 @@ const Project = () => {
             <div>
               {/* Next JS  */}
               <ProjectCard
+                src="/images/work/post.png"
+                h1="Post Sphere"
+                p="I build Post Sphere with Next Js and Tailwind Css and Post API."
+                projectLink="https://next-js-assignment-post-api-post-sphere.vercel.app/"
+              />
+            </div>
+            <div>
+              {/* Next JS  */}
+              <ProjectCard
+                src="/images/work/portfolio next js.png"
+                h1="First Next JS Website"
+                p="My First Portfolio with Next Js and Tailwind Css."
+                projectLink="https://next-js-assignment-3-five.vercel.app/"
+              />
+            </div>
+
+            <div>
+              {/* Next JS  */}
+              <ProjectCard
+                src="/images/work/nextjs website.png"
+                h1="Rise Up Website"
+                p="The motivational website was created using Tailwind CSS and Next JS, with Figma for design and code writing."
+                projectLink="https://rise-up-website-next-js-assignment-7.vercel.app/"
+              />
+            </div>
+
+            <div>
+              {/* Next JS  */}
+              <ProjectCard
                 src="/images/work/milestone.png"
                 h1="Taste Bite"
                 p="I Built a simple multi-page website using React components.I Applied Tailwind CSS to style the website, and it is responsive."
                 projectLink="https://milestone-2-assignments-next-js-with-tailwind-css.vercel.app/"
+              />
+            </div>
+            <div>
+              {/* html css JS  */}
+              <Project2Card
+                src="/images/work/latest2.jpg"
+                h1="GitHub User Finder"
+                p="A simple tool to discover top GitHub developers by username. Powered by the GitHub API."
+                projectLink="https://git-hub-user-dev-finder-8db1.vercel.app/"
+              />
+            </div>
+            <div>
+              {/* html css javascript  */}
+              <Project2Card
+                src="/images/work/joke.png"
+                h1="Random Joke Generator"
+                p="I build Random Joke Generator with  html css javascript and Joke API."
+                projectLink="https://random-joke-generator-wine.vercel.app/"
+              />
+            </div>
+            <div>
+              {/* html css javascript  */}
+              <Project2Card
+                src="/images/work/fee.png"
+                h1="Fee Management"
+                p="I build Random Fee Management Website with  html css javascript and bootstarp."
+                projectLink="https://smit-presentation-student-fee-management.vercel.app/"
               />
             </div>
             <div>
@@ -69,60 +123,6 @@ const Project = () => {
                 h1="Resume Builder"
                 p="Experience our Resume Builder, built with  html css javascript.Create your resume free of cost."
                 projectLink="https://milestone-5-unique-path-and-shareable-link-pi.vercel.app/"
-              />
-            </div>
-            <div>
-              {/* html css javascript  */}
-              <Project2Card
-                src="/images/work/unique bike html css.png"
-                h1="Unique Bike"
-                p="Experience our Landing Page, built with  html css javascript.Go and Watch Javascript Functionality."
-                projectLink="https://unique-bike.vercel.app/"
-              />
-            </div>
-            <div>
-              {/* html css javascript  */}
-              <Project2Card
-                src="/images/work/hcj.PNG"
-                h1="Word Scramble Game"
-                p="Experience our Word Scramble Game, built with  html css javascript."
-                projectLink="https://sadafshahab12.github.io/Word-Scramble/"
-              />
-            </div>
-            <div>
-              {/* html css javascript  */}
-              <Project2Card
-                src="/images/work/hcj10.PNG"
-                h1="Todo List App"
-                p="Experience our Todo List App, built with  html css javascript."
-                projectLink="https://to-do-list-app-nine-mu.vercel.app/"
-              />
-            </div>
-            <div>
-              {/* html css bootstrap  */}
-              <Project3Card
-                src="/images/work/bootstrapwebsite2.png"
-                h1="Cake Website"
-                p="Enjoy a seamless browsing experience on our responsive cake website, designed to delight on any deavice!."
-                projectLink="https://sadafshahab12.github.io/Fluffy-Delights---Self-Created/"
-              />
-            </div>
-            <div>
-              {/* html css  */}
-              <Project4Card
-                src="/images/work/landingpage.png"
-                h1="Landing Page"
-                p="Discover our stunning landing page, crafted with HTML and CSS for a responsive design."
-                projectLink="https://sadafshahab12.github.io/Creativee-Freelance-hub-task-2/"
-              />
-            </div>
-            <div>
-              {/* html css   */}
-              <Project4Card
-                src="/images/work/landingpage2.png"
-                h1="Landing Page"
-                p="Discover our stunning landing page, crafted with HTML and CSS for a responsive design."
-                projectLink="https://sadafshahab12.github.io/Nike-Shoe-Responsive-Landing-Page/"
               />
             </div>
           </div>

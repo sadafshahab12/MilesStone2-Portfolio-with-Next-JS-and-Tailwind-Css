@@ -16,7 +16,7 @@ const ABoutIcon = () => {
           icon={faLinkedin}
           width={30}
           height={30}
-          className="text-[#007BB5] w-8 h-8"
+          className="text-[#007BB5] w-5 h-5 sm:w-8 sm:h-8"
         />
       </Link>
       <Link href="https://github.com/sadafshahab12">
@@ -24,7 +24,7 @@ const ABoutIcon = () => {
           icon={faGithub}
           width={30}
           height={30}
-          className=" w-8 h-8"
+          className=" w-5 h-5 sm:w-8 sm:h-8"
         />
       </Link>
       <Link href="https://x.com/sadafshahab12">
@@ -32,7 +32,7 @@ const ABoutIcon = () => {
           icon={faTwitter}
           width={30}
           height={30}
-          className=" w-8 h-8"
+          className=" w-5 h-5 sm:w-8 sm:h-8"
         />
       </Link>
       <Link href="https://www.facebook.com/profile.php?id=61556555833599">
@@ -40,7 +40,7 @@ const ABoutIcon = () => {
           icon={faFacebook}
           width={30}
           height={30}
-          className="text-blue-600  w-8 h-8"
+          className="text-blue-600  w-5 h-5 sm:w-8 sm:h-8"
         />
       </Link>
       <Link href="https://www.instagram.com/sadafshahab12/">
@@ -48,7 +48,7 @@ const ABoutIcon = () => {
           icon={faInstagram}
           width={30}
           height={30}
-          className="text-red  w-8 h-8"
+          className="text-red  w-5 h-5 sm:w-8 sm:h-8"
         />
       </Link>
     </>

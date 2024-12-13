@@ -17,13 +17,13 @@ const ProjectCard = ({ h1, p, src, projectLink }: TProject) => {
   return (
     <>
       <div className="bg-[#2E2E2E] p-3 rounded-md">
-        <div className="h-[12rem] md:h-[16rem] overflow-hidden rounded-md">
+        <div className="w-full h-[12rem] md:h-[16rem] overflow-hidden rounded-md">
           <Image
             src={src}
             alt="nextjs-project-img"
             width={400}
             height={400}
-            className="rounded-md shadow-lg h-full object-cover hover:scale-110 duration-500"
+            className="rounded-md shadow-lg w-full h-full object-cover hover:scale-110 duration-500"
           />
         </div>
         <div className="pt-5 space-y-4 text-center">
@@ -44,7 +44,7 @@ const ProjectCard = ({ h1, p, src, projectLink }: TProject) => {
           <p className="text-white text-[0.6rem] md:text-[0.7rem] tracking-widest md:leading-5 leading-4 px-[2rem]">
             {p}
           </p>
-          <div className="button flex items-center justify-center gap-3 sm:flex-row flex-col ">
+          <div className="button flex items-center justify-center gap-3 sm:flex-row xs:flex-col flex-row ">
             <button
               onClick={() => route.push("https://github.com/sadafshahab12")}
               className="flex gap-3 items-center bg-white rounded-sm  py-2 sm:px-4  px-2 text-[0.7rem]"
